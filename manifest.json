@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+	"name": "LumiTeX",
+	"version": "1.0",
+	"description": "Extract LaTeX expressions from LumiNUS quiz",
+	"author": "Hu Jialun",
+	"sidebar_action": {
+        "default_panel": "lumitex.html"
+    },
+	"permissions": [
+  		"*://luminus.nus.edu.sg/modules/*/quiz/*/attempt?*",
+		"*://luminus.nus.edu.sg/v2/api/assessment/session/*/question?*",
+  		"webRequest",
+		"webRequestBlocking"
+	]
+}
