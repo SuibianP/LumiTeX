@@ -1,0 +1,11 @@
+LumiTeX
+
+=================
+
+Browser extension to extract LaTeX math into
+MATLAB(R)-like notations from LumiNUS quiz.
+
+Do not bother to modify this repository --
+Code as messy as this is not really worth it.
+
+Designed to tackle MA1508E finals.
